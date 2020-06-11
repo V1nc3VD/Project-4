@@ -28,6 +28,10 @@ ul.navbar-nav {
   width: 1100px;
 }
 
+.profielklein {
+    width: 25px;
+}
+
 /* body */
 #text {
   text-align: center;
