@@ -17,3 +17,6 @@
     text-align: end;
     font-family: 'Roboto Condensed', sans-serif;
 }
+body{
+    background-image: url("../img/background.jpg")  ;
+}
