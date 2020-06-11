@@ -44,10 +44,10 @@
               <a href="#"><img class="card-img-top" src="img\81yYqKy7xmL._AC_UY445_.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item One</a>
+                  <a href="#">Raccoon</a>
                 </h4>
                 <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <p class="card-text">Net als de enige echte RaccoonEggs Yeet!</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
