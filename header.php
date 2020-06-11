@@ -1,1 +1,1 @@
-<img src="./img/posche.jpg" class="bannerfoto" alt="pyjamabanner">
+<img src="./img/banner.png" class="bannerfoto" alt="pyjamabanner">
