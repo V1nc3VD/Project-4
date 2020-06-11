@@ -1,0 +1,1 @@
+<div class="col-12 footer">© Ninja in Pyjama <br></div>
