@@ -11,7 +11,7 @@
         </div>
       </div>
       <!-- /.col-lg-3 -->
-      <div class="col-lg-9">
+      <div class="col-lg-9" id="text">
         <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -44,10 +44,10 @@
               <a href="#"><img class="card-img-top" src="img\81yYqKy7xmL._AC_UY445_.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item One</a>
+                  <a href="#">Raccoon</a>
                 </h4>
                 <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <p class="card-text">Net als de enige echte RaccoonEggs Yeet!</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -56,13 +56,13 @@
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="img\619-Up+G6lL._AC_UL1300_.jpg" alt=""></a>
+              <a href="#"><img class="card-img-top" src="img\img_4830.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item Two</a>
+                  <a href="#">Bunny</a>
                 </h4>
-                <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+                <h5>$200</h5>
+                <p class="card-text">Dit mooie konijnekostuum is een must have!.</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -74,10 +74,10 @@
               <a href="#"><img class="card-img-top" src="img\download.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item Three</a>
+                  <a href="#">Squirtle</a>
                 </h4>
                 <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <p class="card-text">Deze Onezee is een echte must have voor pokemon fans</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -89,10 +89,10 @@
               <a href="#"><img class="card-img-top" src="img\DSD3KwrVQAAa9jP.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item Four</a>
+                  <a href="#">Mascotte!!</a>
                 </h4>
-                <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <h5>$999.99</h5>
+                <p class="card-text">Onze enige echte Hauto nu te koop voor een prikkie!!!</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -104,10 +104,10 @@
               <a href="#"><img class="card-img-top" src="img\eenhoorn-onesie-kind.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item Five</a>
+                  <a href="#">Kut kind Onezee</a>
                 </h4>
                 <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+                <p class="card-text">Als jij je kind wil irriteren met deze lelijke pyjama Koom hem dan snel!!.</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -119,10 +119,10 @@
               <a href="#"><img class="card-img-top" src="img\image22s.png" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item Six</a>
+                  <a href="#">I love Daddy</a>
                 </h4>
                 <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <p class="card-text">Deze daddy pyjama is een must have voor alle nette dames (of mannen)</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
