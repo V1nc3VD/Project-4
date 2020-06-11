@@ -19,14 +19,14 @@
   <main class="container-fluid">
     <div class="row">
       <?php
-      include ("./header.php");
-      include ("./navigation.php");
+      include ("./components/header.php");
+      include ("./components/navigation.php");
       if (isset($_GET["content"])){
         include ("./" . $_GET["content"] . ".php");
       } else{
         include("./home.php");
       }
-      include ("./footer.php");
+      include ("./components/footer.php");
     ?>
     </div>
   </main>
