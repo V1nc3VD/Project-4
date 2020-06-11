@@ -6,13 +6,13 @@
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="./index.php?content=home">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pyjamas</a>
+        <a class="nav-link" href="./index.php?content=pyjamas">Pyjamas</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="./index.php?content=home">Contact</a>
       </li>
     </ul>
     <span class="navbar-text">
