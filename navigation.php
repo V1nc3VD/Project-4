@@ -1,4 +1,4 @@
-<div class="col-12"><img src="./img/posche.jpg"  alt=""></div>
+<div class="col-12"><img src="./img/posche.jpg"  width="100%" alt=""></div>
 
 <div class="col-12" id="navigation">
   <ul class="nav nav-tabs">
