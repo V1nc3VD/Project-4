@@ -14,6 +14,9 @@
       <li class="nav-item">
         <a class="nav-link" href="./index.php?content=cantact">Contact</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./index.php?content=shop">shop</a>
+      </li>
     </ul>
     <span class="navbar-text">
       Navbar text with an inline element
