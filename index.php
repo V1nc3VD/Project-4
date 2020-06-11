@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Italianno&display=swap" rel="stylesheet">
   <title>Big PP</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 
 <body>
