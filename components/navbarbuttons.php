@@ -1,5 +1,4 @@
-<!--bij kleine schermgrootte zie je dit wanneer je niet bent ingelogd-->
-<div class="navbarrechts">
+<!--profiel, wanneer je niet ingelogd bent kan je inloggen of registreren. Anders zie je bestellingen en instellingen-->
     <div class="dropdown profielklein btn-nav">
         <a href="dropdown-toggle" class="btn btn-light " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <img src="./img/profile.png" class="profielklein" alt="inloggen/registreren">
@@ -12,4 +11,3 @@
         <img src="./img/shoppingcart.png" class="profielklein" alt="inloggen/registreren">
     </a>
     </div>    
-</div>

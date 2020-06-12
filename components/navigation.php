@@ -3,9 +3,9 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="./index.php?content=home">Home <span class="sr-only">(current)</span></a>
+    <ul class="navbar-nav navbar-main">
+      <li class="nav-item">
+        <a class="nav-link" href="./index.php?content=home">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="./index.php?content=shop">Shop</a>
@@ -14,8 +14,8 @@
         <a class="nav-link" href="./index.php?content=contact">Contact</a>
       </li>
       <ul class="nav navbar-nav navbar-right">
-        <?php include("./components/navbarbuttons.php");?>
+        <?php include("./components/navbarbuttons.php"); ?>
       </ul>
+    </ul>
   </div>
-  </ul>
 </nav>
