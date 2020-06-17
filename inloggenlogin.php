@@ -1,4 +1,4 @@
-<div class="container">
+<div class="content container">
     <div class="row">
         <div class="col-md-8 registreerform">
             <h3 class="registreren text-center">Inloggen</h3>
@@ -9,7 +9,11 @@
                     <input type="email" class="form-control registreerinput" id="email" name="email" aria-describedby="email" placeholder="">
                     <label>Wachtwoord</label>
                     <input type="password" class="form-control registreerinput" id="password" name="password" aria-describedby="password" placeholder="">
-                    <button type="submit" class="btn btn-primary submitregister">Submit</button>
+                    <div class="formbottom">
+                        <button type="submit" class="btn btn-primary submitregister">Inloggen</button>
+                        <a href="">wachtwoord vergeten</a>
+                        <?php echo $alertmessage; ?>
+                    </div>
                 </div>
             </form>
         </div>
