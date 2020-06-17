@@ -36,8 +36,8 @@ else {
         print("success!");
         $password_hash = password_hash($password, PASSWORD_BCRYPT);
     
-        $sql = "INSERT INTO `REGISTER` (`USER_ID`, `email`, `password`, `nickname`,`userrole`)
-                VALUES (NULL, '{$email}', '{$password_hash}', '{$nickname}', 'gebruiker')";
+        $sql = "INSERT INTO `USERS` (`USER_ID`, `email`, `password`, `nickname`,`userrole`)
+                VALUES (NULL, '{$email}', '{$password_hash}', '{$nickname}', 'customer')";
 
                 mysqli_query($conn, $sql);
     }
