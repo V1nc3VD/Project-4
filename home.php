@@ -22,7 +22,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img\17a019f2-87d8-4682-b7e8-d8810f22a919.jpg" width="950px" height="600px" class="d-block w-100" alt="...">
+      <img src="img\pexels-photo-3807763.jpeg" width="950px" height="600px" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Pyjamas!</h5>
         <p>Wij verkopen de Mooiste pyjamas!</p>
