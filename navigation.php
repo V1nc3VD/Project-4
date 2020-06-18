@@ -19,7 +19,10 @@
       </li>
     </ul>
     <span class="navbar-text">
-      Navbar text with an inline element
+    <a class="nav-link" href="./index.php?content=shop">Login</a>
+    </span>
+    <span class="navbar-text">
+    <a class="nav-link" href="./index.php?content=shop">Register</a>
     </span>
   </div>
 </nav>
