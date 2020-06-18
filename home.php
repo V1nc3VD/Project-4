@@ -1,4 +1,6 @@
-<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+<div class="container">
+
+<div id="carouselExampleCaptions" class="carousel slide col-12" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -6,24 +8,24 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="img\wp1842461-welcome-wallpapers.jpg" width="950px" height="600px"  class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h5>Welkom!</h5>
+        <p>Welkom bij onze webshop!</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="img\Screenshot_1.png" width="950px" height="600px" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h5>Ons bedrijf</h5>
+        <p>Wij zijn het bedrijf: Ninjas in Pyjamas.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="img\17a019f2-87d8-4682-b7e8-d8810f22a919.jpg" width="950px" height="600px" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <h5>Pyjamas!</h5>
+        <p>Wij verkopen de Mooiste pyjamas!</p>
       </div>
     </div>
   </div>
@@ -39,11 +41,11 @@
 
 
 
-<div class="container">
+
   <div class="row">
   <div class="jumbotron jumbotron-fluid col-12">
     <h1 class="display-4">Ninjas in Pyjama</h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <p class="lead">Op deze webshop verkopen wij de mooiste pyjamas hier kunnen jullie de beste pyjamas kopen!.</p>
   </div>
 </div>
 </div>
