@@ -3,7 +3,7 @@
             <div class="col-5">
                 <div class="card">
                     <div class="card-body card-color">
-                        <form action="./phpscript/inloggen_script.php" autocomplete="off">
+                        <form action="./index.php?content=inloggen_script" autocomplete="off">
                             <div class="form-group">
                                 Username
                                 <input type="text" class="form-control" name="username">
