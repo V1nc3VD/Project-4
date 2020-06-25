@@ -31,7 +31,11 @@ while ($record = mysqli_fetch_assoc($result)) {
       <p class="card-text">' . $beschrijving . '</p>
     </div>
     <div class="card-footer">
-      <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+        <a href="dropdown-toggle" class="btn btn-warning" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Zet in winkelmand<img src="./img/shoppingcart.png" class="profielklein" alt="inloggen/registreren">
+        </a>
+        <br>
+
     </div>
   </div>
 </div>';
