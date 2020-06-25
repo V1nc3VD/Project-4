@@ -21,6 +21,8 @@
       <?php
       include("./components/header.php");
       include("./components/navigation.php");
+      include("./components/alertmessage.php");
+
       if (isset($_GET["content"])) {
         include("./" . $_GET["content"] . ".php");
       } else {

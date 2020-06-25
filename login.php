@@ -1,4 +1,4 @@
-<div class="content container">
+<div class="content container center">
     <div class="row">
         <div class="col-md-8 registreerform">
             <h3 class="registreren text-center">Inloggen</h3>

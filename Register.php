@@ -1,3 +1,4 @@
+<?php echo $alertmessage; ?>
 <div class="container">
     <div class="row">
         <div class="col-md-8 registreerform">
@@ -8,7 +9,7 @@
                         <label for="exampleInputEmail1">Je email address</label>
                         <input type="email" class="form-control registreerinput" id="email" name="email" aria-describedby="email" placeholder="">
                         <label>Naam</label>
-                        <input type="text" class="form-control registreerinput" id="nickname" name="nickname" aria-describedby="nickname" placeholder="">
+                        <input type="text" class="form-control registreerinput" id="name" name="name" aria-describedby="name" placeholder="">
 
                         <label>Kies een goed wachtwoord</label>
                         <input type="password" class="form-control registreerinput" id="password" name="password" aria-describedby="password" placeholder="">
