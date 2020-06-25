@@ -1,6 +1,4 @@
-<div class="content container center">
-    <div class="row">
-        <div class="col-md-8 registreerform">
+        <div class="container userform">
             <h3 class="registreren text-center">Inloggen</h3>
             <hr>
             <form action="./phpscripts/inloggen_script" method="post">
@@ -17,5 +15,3 @@
                 </div>
             </form>
         </div>
-    </div>
-</div>
