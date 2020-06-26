@@ -1,4 +1,3 @@
-<?php echo $alertmessage; ?>
 <div class="userform container">
     <h3 class="registreren text-center">Registreren</h2>
         <hr>

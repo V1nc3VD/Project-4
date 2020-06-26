@@ -1,15 +1,15 @@
 <?php 
 if (empty($_POST["email"])) {
-    header("Location: ./index.php?content=message&alert=no-email");
+    header("Location: ../index.php?content=register&alert=emptyemail");
 }
 
 else if (empty($_POST["name"])) {
-    print("geen naam ingevoerd");
+    header("Location: ../index.php?content=register&alert=emptynickname");
 
 } 
 
 else if (empty($_POST["password"])) {
-    print("geen wachtwoord ingevoerd");
+    header("Location: ../index.php?content=register&alert=emptypassword");
 }
 
 
