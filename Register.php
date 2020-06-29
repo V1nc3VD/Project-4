@@ -1,18 +1,22 @@
-<div class="container">
-    <div class="row justify-content-center align-items-center" style="height:70vh">
-        <div class="col-12 col-sm-5">
-            <div class="card">
-                <div class="card-body card-color">
-                    <form action="./index.php?content=register_script" method="post">
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" name="email" class="form-control" require id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text ">We'll never share your email with anyone else.</small>
-                        </div>
-                        <button type="submit" id="sendlogin" class="btn btn-primary">login</button>
-                    </form>
-                </div>
+<div class="userform container">
+    <h3 class="registreren text-center">Registreren</h2>
+        <hr>
+        <form action="./phpscripts/register_script" method="post">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Je email address</label>
+                <input type="email" class="form-control registreerinput" id="email" name="email" aria-describedby="email" placeholder="">
+                <label>Naam</label>
+                <input type="text" class="form-control registreerinput" id="name" name="name" aria-describedby="name" placeholder="">
+
+                <label>Kies een goed wachtwoord</label>
+                <input type="password" class="form-control registreerinput" id="password" name="password" aria-describedby="password" placeholder="">
+                <label>Hetzelfde wachtwoord</label>
+                <input type="password" class="form-control registreerinput" id="password-verify" name="password-verify" aria-describedby="password" placeholder="">
+                <div class="formbottom">
+                        <button type="submit" class="btn btn-primary submitregister">Account aanmaken</button>
+                        <a href="./index.php?content=login">Ik heb al een account</a>
+                        <?php echo $alertmessage; ?>
+                    </div>
             </div>
-        </div>
-    </div>
+        </form>
 </div>

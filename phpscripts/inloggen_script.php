@@ -22,22 +22,24 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
  
     // Check if EMAIL is empty
     if(empty(trim($_POST["email"]))){
-        $email_err = "Vul je email in.";
+        header("Location: ../index.php?content=login&alert=emptyemail");
+        $email_err = true;
     } else{
         $email = sanitize($_POST["email"]);
     }
     
     // Check if password is empty
     if(empty(trim($_POST["password"]))){
-        $password_err = "Please enter your password.";
+        header("Location: ../index.php?content=login&alert=emptypassword");
+        $password_err = true;
     } else{
-        $password = trim($_POST["password"]);
+        $password = sanitize($_POST["password"]);
     }
     
     // Validate credentials
     if(empty($email_err) && empty($password_err)){
         // Prepare a select statement
-        $sql = "SELECT USER_ID, email, nickname, password, userrole FROM register WHERE email = ?";
+        $sql = "SELECT USER_ID, email, password, name, userrole FROM users WHERE email = ?";
         
         if($stmt = mysqli_prepare($conn, $sql)){
             // Bind variables to the prepared statement as parameters
@@ -55,7 +57,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 // Check if email exists, if yes then verify password
                 if(mysqli_stmt_num_rows($stmt) == 1){                    
                     // Bind result variables
-                    mysqli_stmt_bind_result($stmt, $id, $email, $username, $hashed_password, $userrole);
+                    mysqli_stmt_bind_result($stmt, $id, $email, $hashed_password, $username,  $userrole);
                     if(mysqli_stmt_fetch($stmt)){
                         if(password_verify($password, $hashed_password)){
                             // Password is correct, so start a new session
@@ -65,7 +67,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["loggedin"] = true;
                             $_SESSION["USER_ID"] = $id;
                             $_SESSION["email"] = $email;   
-                            $_SESSION["username"] = $username; 
+                            $_SESSION["name"] = $username; 
                             $_SESSION["userrole"] = $userrole; 
              
                             
@@ -73,15 +75,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             header("location:  ../index.php?content=home");
                         } else{
                             // Display an error message if password is not valid
-                            $password_err = "The password you entered was not valid.";
+                            header("Location: ../index.php?content=login&alert=wrongpassword");
                         }
                     }
                 } else{
                     // Display an error message if email doesn't exist
-                    $email_err = "No account found with that email.";
+                    header("Location: ../index.php?content=login&alert=wrongemail");
                 }
             } else{
-                echo "Oops! Something went wrong. Please try again later.";
+                header("Location: ../index.php?content=login&alert=unknown");
             }
 
             // Close statement

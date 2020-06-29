@@ -2,6 +2,7 @@
 .bannerfoto {
   max-width: 100%;
 }
+
 /* navbar */
 
 .navbar {
@@ -45,7 +46,14 @@ img.profielklein {
     float: right;
 }
 
+/* forms */
+.userform {
+  max-width: 768px;
+}
 
+.formbottom {
+  margin-top: 20px;
+}
 
 /* body */
 #text {
@@ -56,9 +64,25 @@ img.profielklein {
   text-align: end;
   font-family: "Roboto Condensed", sans-serif;
 }
+
 body {
-  background-image: url("../img/background.jpg");
+  /* background-image: url("../img/background.jpg"); */
 }
+
+img.card-img-top {
+  width: auto;
+  height: 260px;
+  /*bij verkeerde image formats wordt de verhouding goed gezet */
+  object-fit: cover;
+}
+
+div.card-body {
+height: 200px;
+}
+
+
+
+
 
 /* footer */
 .footer {

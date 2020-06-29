@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Italianno&display=swap" rel="stylesheet">
-  <title>Big PP</title>
+  <title>Ninjas in pyjamas</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -21,6 +21,8 @@
       <?php
       include("./components/header.php");
       include("./components/navigation.php");
+      include("./components/alertmessage.php");
+
       if (isset($_GET["content"])) {
         include("./" . $_GET["content"] . ".php");
       } else {
