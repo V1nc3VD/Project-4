@@ -54,7 +54,7 @@ INSERT INTO `pyjamas` (`PyjamaID`, `Naam`, `Foto`, `Beschrijving`, `Prijs`, `Voo
 (11, 'Poema', 'Poema', 'Ben jij een echte sluiper, koop deze pyjama dan!', '29.99', 120),
 (12, 'Pumba', 'Pumba', 'Een mooie pumba pyjama!!', '29.99', 1240),
 (13, 'Bananenpyjama', 'Banaan', 'Hou jij van bananen, dand is deze pyjama echt iets voor jou!', '29.99', 1240),
-(14, 'Squirtle', 'pokemon', 'Voor een lage prijs kan jij een pokemon zijn!', '29.99', 1240)
+(14, 'Squirtle', 'pokemon', 'Voor een lage prijs kan jij een pokemon zijn!', '29.99', 1240),
 (7, 'I love Daddy', 'daddy', 'Deze daddy pyjama is een must have voor alle nette dames (of mannen)', '24.99', 5);
 
 
