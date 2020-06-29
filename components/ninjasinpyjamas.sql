@@ -48,7 +48,15 @@ INSERT INTO `pyjamas` (`PyjamaID`, `Naam`, `Foto`, `Beschrijving`, `Prijs`, `Voo
 (2, 'Bunny', 'bunny', 'Dit mooie konijnekostuum is een must have!.', '200.00', 120),
 (5, 'Squirtle', 'squirtle', 'Deze Onesie is een echte must have voor pokemon fans', '24.99', 8000),
 (6, 'Mascotte!!', 'hauto', 'Onze enige echte Hauto nu te koop voor een prikkie!', '999.99', 12),
+(8, 'Lizard', 'Lizard', 'Deze pyjama is een must have voor alle coole kikkers', '19.99', 1000),
+(9, 'Eend', 'Eend', 'Dit is wel een Hele mooie eend die je wil hebben.', '29.99', 120),
+(10, 'Draak', 'Draak', 'Een draak, wat wil je nog meer?', '29.99', 120),
+(11, 'Poema', 'Poema', 'Ben jij een echte sluiper, koop deze pyjama dan!', '29.99', 120),
+(12, 'Pumba', 'Pumba', 'Een mooie pumba pyjama!!', '29.99', 1240),
+(13, 'Bananenpyjama', 'Banaan', 'Hou jij van bananen, dand is deze pyjama echt iets voor jou!', '29.99', 1240),
+(14, 'Squirtle', 'pokemon', 'Voor een lage prijs kan jij een pokemon zijn!', '29.99', 1240)
 (7, 'I love Daddy', 'daddy', 'Deze daddy pyjama is een must have voor alle nette dames (of mannen)', '24.99', 5);
+
 
 -- --------------------------------------------------------
 
