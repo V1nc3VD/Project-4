@@ -1,6 +1,6 @@
 <!--profiel, wanneer je niet ingelogd bent kan je inloggen of registreren. Anders zie je bestellingen en instellingen-->
 <?php 
-            session_start();
+            
   if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 $buttons = '<a class="dropdown-item" href="./index.php?content=login">Inloggen</a>
         <a class="dropdown-item" href="./index.php?content=register">Account aanmaken</a>';
@@ -19,7 +19,7 @@ else {
     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
         <?php print $buttons;?>
     </div>
-    <a class="btn btn-light" type="button"  aria-haspopup="true" aria-expanded="false">
-        <img src="./img/shoppingcart.png" class="profielklein" href="">
+    <a class="btn btn-light" type="button"  aria-haspopup="true" aria-expanded="false" href="../cart.php">
+        <img src="./img/shoppingcart.png" class="profielklein" >
     </a>
 </div>
