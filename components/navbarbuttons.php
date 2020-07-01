@@ -1,6 +1,6 @@
 <!--profiel, wanneer je niet ingelogd bent kan je inloggen of registreren. Anders zie je bestellingen en instellingen-->
 <?php 
-            
+            session_start();
   if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 $buttons = '<a class="dropdown-item" href="./index.php?content=login">Inloggen</a>
         <a class="dropdown-item" href="./index.php?content=register">Account aanmaken</a>';

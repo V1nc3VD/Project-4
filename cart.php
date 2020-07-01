@@ -1,6 +1,9 @@
 <?php
+
 session_start();
+
 $product_ids = array();
+
 
 //check if Add to Cart button has been submitted
 if(filter_input(INPUT_POST, 'add_to_cart')){

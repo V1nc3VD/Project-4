@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 
 DROP TABLE IF EXISTS `pyjamas`;
 CREATE TABLE IF NOT EXISTS `pyjamas` (
-  `PyjamaID` int(11) NOT NULL AUTO_INCREMENT,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `Naam` varchar(50) NOT NULL,
   `Foto` varchar(100) NOT NULL,
   `Beschrijving` varchar(200) DEFAULT NULL,
