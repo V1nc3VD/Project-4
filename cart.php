@@ -1,6 +1,5 @@
 <?php
 
-session_start();
 
 $product_ids = array();
 
@@ -53,10 +52,12 @@ if(filter_input(INPUT_GET, 'action') == 'delete'){
         if ($product['id'] == filter_input(INPUT_GET, 'id')){
             //remove product from the shopping cart when it matches with the GET id
             unset($_SESSION['shopping_cart'][$key]);
+            header("location: index.php?content=cart");
         }
     }
     //reset session array keys so they match with $product_ids numeric array
     $_SESSION['shopping_cart'] = array_values($_SESSION['shopping_cart']);
+
 }
 
 //pre_r($_SESSION);
@@ -67,9 +68,6 @@ function pre_r($array){
     echo '</pre>';
 }
 
-include("./components/header.php");
-include("./components/navigation.php");
-include("./components/alertmessage.php");
 
 ?>
 
@@ -89,9 +87,6 @@ include("./components/alertmessage.php");
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
-    <main class="container-fluid">
-        <div class="row">
 
             <?php
 
@@ -105,9 +100,9 @@ include("./components/alertmessage.php");
                     while ($product = mysqli_fetch_assoc($result)) {
             ?>
                         <div class="col-lg-4 col-md-6 mb-4">
-                            <form method="post" action="cart.php?action=add&id=<?php echo $product['id']; ?>">
+                            <form method="post" action="index.php?content=cart&action=add&id=<?php echo $product['id']; ?>">
                                 <div class="card h-100">
-                                    <a><img class="card-img-top" src="./img/pyjamas/<?php echo $product['Foto']; ?>.jpg" alt=""></a>
+                                    <a><img class="card-img-top" src="./img/pyjamas/<?php echo $product['Foto']; ?>" alt=""></a>
                                     <div class="card-body">
                                         <h4 class="card-title">
                                             <a><?php echo $product['Naam']; ?></a>
@@ -161,7 +156,7 @@ include("./components/alertmessage.php");
            <td>$ <?php echo $product['Prijs']; ?></td>  
            <td>$ <?php echo number_format($product['quantity'] * $product['Prijs'], 2); ?></td>  
            <td>
-               <a href="cart.php?action=delete&id=<?php echo $product['id']; ?>">
+               <a href="index.php?content=cart&action=delete&id=<?php echo $product['id']; ?>">
                     <div class="btn-danger">Remove</div>
                </a>
            </td>  
@@ -196,12 +191,3 @@ include("./components/alertmessage.php");
         <?php 
         include("./components/footer.php");
         ?>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</body>
-
-</html>
