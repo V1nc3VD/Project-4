@@ -19,6 +19,7 @@
   <main class="container-fluid">
     <div class="row">
       <?php
+      session_start();
       include("./components/header.php");
       include("./components/navigation.php");
       include("./components/alertmessage.php");
