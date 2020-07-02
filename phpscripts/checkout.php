@@ -36,6 +36,7 @@ foreach ($_SESSION['shopping_cart'] as $key => $product) {
 }
 //maakt een nieuwe lege winkelwagen aan
 $_SESSION['shopping_cart'] = array();
+header("location: ../index.php?content=shop");
 
 
 ?>
