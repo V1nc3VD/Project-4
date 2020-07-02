@@ -19,7 +19,7 @@ else {
     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
         <?php print $buttons;?>
     </div>
-    <a class="btn btn-light" type="button"  aria-haspopup="true" aria-expanded="false" href="../cart.php">
+    <a class="btn btn-light" type="button"  aria-haspopup="true" aria-expanded="false" href="../index.php?content=cart">
         <img src="./img/shoppingcart.png" class="profielklein" >
     </a>
 </div>
