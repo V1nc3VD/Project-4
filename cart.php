@@ -47,7 +47,7 @@ if (filter_input(INPUT_GET, 'action') == 'delete') {
         if ($product['id'] == filter_input(INPUT_GET, 'id')) {
             //remove product from the shopping cart when it matches with the GET id
             unset($_SESSION['shopping_cart'][$key]);
-            header("location: index.php?content=cart");
+            header("location: index.php?content=cart&message=success");
         }
     }
     //reset session array keys so they match with $product_ids numeric array
@@ -65,7 +65,6 @@ function pre_r($array)
 
 
 ?>
-
 
 
 <div class="table-responsive">
@@ -116,7 +115,7 @@ function pre_r($array)
                     if (isset($_SESSION['shopping_cart'])) :
                         if (count($_SESSION['shopping_cart']) > 0) :
                     ?>
-                            <a href="#" class="button">Checkout</a>
+                            <a href="./phpscripts/checkout.php" class="button">Checkout</a>
                     <?php endif;
                     endif; ?>
                 </td>
@@ -126,6 +125,8 @@ function pre_r($array)
         ?>
     </table>
 </div>
+
+
 
 
 

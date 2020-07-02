@@ -1,4 +1,5 @@
 <main class="container-fluid">
+<?php echo $alertmessage; ?>
     <div class="row">
 
         <?php
@@ -12,6 +13,7 @@
             if (mysqli_num_rows($result)) {
                 while ($product = mysqli_fetch_assoc($result)) {
         ?>
+
                     <div class="col-lg-4 col-md-6 mb-4">
                         <form method="post" action="index.php?content=cart&action=add&id=<?php echo $product['id']; ?>">
                             <div class="card h-100">
