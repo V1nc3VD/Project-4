@@ -7,9 +7,9 @@ $total=NULL;
 foreach ($_SESSION['shopping_cart'] as $key => $product) {
 
     $productid = $product['id'];
-    $quantity = $product['quantity'];
-    $price = $product['Prijs'];
-    $producttotalprice = number_format($product['quantity'] * $product['Prijs'], 2);
+    $quantity = floatval($product['quantity']);
+    $price = floatval($product['Prijs']);
+    $producttotalprice = $product['quantity'] * $product['Prijs'];
     //gaat de loop telkens langs en voegt producttotaalprijs telkens opnieuw toe
     $total = $total + ($producttotalprice);
 }
@@ -36,6 +36,7 @@ foreach ($_SESSION['shopping_cart'] as $key => $product) {
 }
 //maakt een nieuwe lege winkelwagen aan
 $_SESSION['shopping_cart'] = array();
+
 
 ?>
 
