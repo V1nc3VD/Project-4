@@ -14,15 +14,17 @@ foreach ($_SESSION['shopping_cart'] as $key => $product) {
     $total = $total + ($producttotalprice);
 }
 
+
 $datum = date("Y/m/d H:i:s");
 
-echo $datum;
+
 $USERID = $_SESSION["USER_ID"];
 $sql = "INSERT INTO `BESTELLING` (`USER_ID`, `Bestellingdatum`, `Totaalprijs`)
 VALUES ('{$USERID}', '{$datum}', '{$total}')";
 
 
 mysqli_query($conn, $sql);
+//pakt het door auto_increment aangemaakte bestellingid van bestteling
 $bestellingid = mysqli_insert_id($conn);
 
 
