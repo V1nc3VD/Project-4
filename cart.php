@@ -47,7 +47,7 @@ if (filter_input(INPUT_GET, 'action') == 'delete') {
         if ($product['id'] == filter_input(INPUT_GET, 'id')) {
             //remove product from the shopping cart when it matches with the GET id
             unset($_SESSION['shopping_cart'][$key]);
-            header("location: index.php?content=cart&message=success");
+
         }
     }
     //reset session array keys so they match with $product_ids numeric array
