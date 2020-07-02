@@ -1,5 +1,9 @@
 <?php
 session_start();
+if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
+        header("location: ../index.php?content=login&alert=nietingelogd");
+}
+else {
 include("./connect_db.php");
 include("./functions.php");
 $total=NULL;
@@ -36,7 +40,8 @@ foreach ($_SESSION['shopping_cart'] as $key => $product) {
 }
 //maakt een nieuwe lege winkelwagen aan
 $_SESSION['shopping_cart'] = array();
-header("location: ../index.php?content=shop");
+header("location: ../index.php?content=shop&alert=success");
+}
 
 
 ?>

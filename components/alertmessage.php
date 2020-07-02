@@ -51,6 +51,11 @@ case "unknown":
 Er is iets fout gegaan. Probeer het later opnieuw of neem contact met ons op.
 </div>';
 
+case "nietingelogd":
+    $alertmessage = '<div class="alert alert-warning" role="alert">
+Log in om te bestellen.
+</div>';
+
 
 
 }
