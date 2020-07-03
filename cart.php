@@ -71,7 +71,7 @@ function pre_r($array)
     <table class="table">
         <tr>
             <th colspan="5">
-                <h3>Order Details</h3>
+                <h3>Winkelmand</h3>
             </th>
         </tr>
         <tr>

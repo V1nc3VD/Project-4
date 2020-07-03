@@ -25,6 +25,7 @@
       geopend. Wij vinden dat heel Nederland toegang moet krijgen tot onze geweldige pyjama's daarom bestaat sinds kort deze online webshop. 
     </p>
     <p>Op de webwinkel heb je net als in onze normale winkels 50 dagen bedenktijd. Retourneren is bovendien gratis!</p>
+    <a class="btn btn-primary homebutton rounded-pill mt-5 text-center" role="button" href="../index.php?content=shop">Shop nu</a>
 
     </div>
     <div class="col-md-6">

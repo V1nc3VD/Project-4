@@ -92,6 +92,15 @@ h2.text {
   margin-top: -36.5px;
 }
 
+.homebutton {
+  padding: 1rem 3rem;
+  background-color: burlywood;
+  color: white;
+  border: solid;
+  font-size: 20px;
+  border-color: brown;
+}
+
 .content {
 margin: auto;
 margin-top: 10px;
@@ -101,14 +110,17 @@ max-width: 1600px;
 }
 
 
-
+.carousel {
+  border: solid;
+  border-width: 1.5px;
+  border-color: burlywood;
+}
 img.carouselimg{
   height: 500px;
   object-fit: none;
   object-position: 50% 50%;
-  border: solid;
-  border-width: thin;
-  border-color: burlywood;
+
+
   
 }
 
