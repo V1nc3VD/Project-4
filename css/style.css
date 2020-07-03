@@ -1,13 +1,28 @@
 /*banner*/
-.bannerfoto {
-  max-width: 100%;
+.headerfoto {
+
+  
+  display: block;
+  max-width: 1200px;
+  width: 100%;
+  height: 160px;
+  margin: 0 auto;
+
+
+  object-fit: cover;
+}
+
+div.header {
+
+  width: 100%;
+
+
 }
 
 /* navbar */
 
 .navbar {
-  margin-top: 8px;
-  margin-bottom: 8px;
+
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #fff4fc;
@@ -45,6 +60,58 @@ img.profielklein {
     width: 25px;
     float: right;
 }
+
+.homebanner {
+  height: 500px;
+  padding-top: 250px ;
+  width: 100%;
+  background-image: url(../img/screenshot_1);
+  background-size: cover;
+  background-color: rgba(0, 0, 255, 0.151);
+  box-shadow: inset 0 0 0 1000px rgba(12, 12, 255, 0.151);
+
+}
+
+/* home */
+.bannerlogo {
+  margin-top: -75px;
+  max-height: 150px;
+  height: auto;
+}
+h2.title {
+  color: burlywood;
+  font-size: 35px;
+}
+
+h2.text {
+  color: burlywood;
+  font-size: larger;
+}
+
+.bannertext {
+  margin-top: -36.5px;
+}
+
+.content {
+margin: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+width: 100%;
+max-width: 1600px;
+}
+
+
+
+img.carouselimg{
+  height: 500px;
+  object-fit: none;
+  object-position: 50% 50%;
+  border: solid;
+  border-width: thin;
+  border-color: burlywood;
+  
+}
+
 
 /* forms */
 .userform {

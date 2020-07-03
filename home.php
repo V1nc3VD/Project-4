@@ -1,51 +1,48 @@
-<div class="container">
+<div class="homebanner">
+  <div class="container">
+    <div class="row banner-content">
+      <div class="col-md-6 d-none d-lg-block">
+        <img src="./img/logo" class="bannerlogo" alt="">
+      </div>
+      <div class="col-md-6">
+        <div class="bannertext">
+          <h2 class="title">Welkom op onze nieuwe website!</h2>
+          <h2 class="text">Deze maand gratis verzenden!</h2>
+        </div>
+      </div>
 
-<div id="carouselExampleCaptions" class="carousel slide col-12" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img\wp1842461-welcome-wallpapers.jpg" width="950px" height="600px"  class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Welkom!</h5>
-        <p>Welkom bij onze webshop!</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="img\Screenshot_1.png" width="950px" height="600px" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Ons bedrijf</h5>
-        <p>Wij zijn het bedrijf: Ninjas in Pyjamas.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="img\pexels-photo-3807763.jpeg" width="950px" height="600px" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Pyjamas!</h5>
-        <p>Wij verkopen de Mooiste pyjamas!</p>
-      </div>
+
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
 
-
-
-
+<div class="content">
   <div class="row">
-  <div class="jumbotron jumbotron-fluid col-12">
-    <h1 class="display-4">Ninjas in Pyjama</h1>
-    <p class="lead">Op deze webshop verkopen wij de mooiste pyjamas hier kunnen jullie de beste pyjamas kopen!.</p>
+    <div class="col-md-6">
+
+      <h2>Wie zijn wij?</h2>
+      <p>Wij van Ninjas in Pyjamas zijn al sinds 2010 bezig met het verkopen van hoge kwaliteit pyjama's. Door de grote vraag naar onze bijzondere pyjama's hebben we vorig jaar 2 nieuwe winkels
+      geopend. Wij vinden dat heel Nederland toegang moet krijgen tot onze geweldige pyjama's daarom bestaat sinds kort deze online webshop. 
+    </p>
+    <p>Op de webwinkel heb je net als in onze normale winkels 50 dagen bedenktijd. Retourneren is bovendien gratis!</p>
+
+    </div>
+    <div class="col-md-6">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 carouselimg" src="./img/pyjamas/raccoon" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 carouselimg" src="./img/pyjamas/lizard" alt="Third slide">
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100 carouselimg" src="./img/pyjamas/squirtle" alt="Third slide">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
+
 </div>
