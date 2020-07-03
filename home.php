@@ -4,7 +4,7 @@
       <div class="col-md-6 d-none d-lg-block">
         <img src="./img/logo" class="bannerlogo" alt="">
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6" id="text">
         <div class="bannertext">
           <h2 class="title">Welkom op onze nieuwe website!</h2>
           <h2 class="text">Deze maand gratis verzenden!</h2>
@@ -18,7 +18,7 @@
 
 <div class="content">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6" id="text">
 
       <h2>Wie zijn wij?</h2>
       <p>Wij van Ninjas in Pyjamas zijn al sinds 2010 bezig met het verkopen van hoge kwaliteit pyjama's. Door de grote vraag naar onze bijzondere pyjama's hebben we vorig jaar 2 nieuwe winkels

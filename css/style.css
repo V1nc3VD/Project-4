@@ -169,3 +169,10 @@ height: 200px;
   background-color: #e9ecef;
   border-radius: 0.3rem;
 }
+
+
+.space{
+
+  padding-top: 100px;
+  padding-bottom: 200px;
+}

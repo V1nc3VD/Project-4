@@ -11,7 +11,7 @@
         <a class="nav-link" href="./index.php?content=shop">Shop</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./index.php?content=contact">Contact</a>
+        <a class="nav-link" href="./index.php?content=bestelproces">Bestel Proces</a>
       </li>
       <ul class="nav navbar-nav navbar-right">
         <?php include("./components/navbarbuttons.php"); ?>

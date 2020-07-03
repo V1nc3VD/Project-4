@@ -7,8 +7,7 @@ $buttons = '<a class="dropdown-item" href="./index.php?content=login">Inloggen</
 } 
 else {
     $buttons = 
-    '<a class="dropdown-item" href="../cart.php">Mijn bestellingen</a>
-        <a class="dropdown-item" href="#">Instellingen</a>
+    '<a class="dropdown-item" href="../index.php?content=cart">Mijn bestellingen</a>
         <a class="dropdown-item" href="../phpscripts/logout.php">Uitloggen</a>';
 }
 ?>

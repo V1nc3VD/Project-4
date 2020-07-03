@@ -1,4 +1,5 @@
 <?php
+// connect to the data base
 define("SERVERNAME","localhost");
 define("USERNAME","terroreend");
 define("PASSWORD","GM4wltsSK6R5Lqp2");

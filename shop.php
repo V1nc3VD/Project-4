@@ -14,7 +14,7 @@
                 while ($product = mysqli_fetch_assoc($result)) {
         ?>
 
-                    <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="col-lg-4 col-md-6 mb-4" id="text">
                         <form method="post" action="index.php?content=cart&action=add&id=<?php echo $product['id']; ?>">
                             <div class="card h-100">
                                 <a><img class="card-img-top" src="./img/pyjamas/<?php echo $product['Foto']; ?>" alt=""></a>
